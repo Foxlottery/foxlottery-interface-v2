@@ -85,7 +85,7 @@ export default {
     97: '',
   },
   chainlinkOracleCAKE: {
-    56: '0xcbb98864ef56e9042e7d2efef76141f15731b82f',
+    56: '0x51597f405303c4377e36123cbc172b13269ea163',
     97: '',
   },
   predictionsV1: {
