@@ -1,6 +1,5 @@
 import { Language } from '@pancakeswap/uikit'
 
-export const AR: Language = { locale: 'ar-SA', language: 'العربية', code: 'ar' }
 export const BN: Language = { locale: 'bn-BD', language: 'বাংলা', code: 'bn' }
 export const EN: Language = { locale: 'en-US', language: 'English', code: 'en' }
 export const DE: Language = { locale: 'de-DE', language: 'Deutsch', code: 'de' }
@@ -13,7 +12,6 @@ export const HI: Language = { locale: 'hi-IN', language: 'हिंदी', code
 export const HU: Language = { locale: 'hu-HU', language: 'Magyar', code: 'hu' }
 export const ID: Language = { locale: 'id-ID', language: 'Bahasa Indonesia', code: 'id' }
 export const IT: Language = { locale: 'it-IT', language: 'Italiano', code: 'it' }
-export const JA: Language = { locale: 'ja-JP', language: '日本語', code: 'ja' }
 export const KO: Language = { locale: 'ko-KR', language: '한국어', code: 'ko' }
 export const NL: Language = { locale: 'nl-NL', language: 'Nederlands', code: 'nl' }
 export const PL: Language = { locale: 'pl-PL', language: 'Polski', code: 'pl' }
@@ -30,7 +28,6 @@ export const ZHCN: Language = { locale: 'zh-CN', language: '简体中文', code:
 export const ZHTW: Language = { locale: 'zh-TW', language: '繁體中文', code: 'zh-tw' }
 
 export const languages = {
-  'ar-SA': AR,
   'bn-BD': BN,
   'en-US': EN,
   'de-DE': DE,
@@ -43,7 +40,6 @@ export const languages = {
   'hu-HU': HU,
   'id-ID': ID,
   'it-IT': IT,
-  'ja-JP': JA,
   'ko-KR': KO,
   'nl-NL': NL,
   'pl-PL': PL,
