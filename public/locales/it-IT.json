@@ -660,7 +660,7 @@
   "Prize Funds": "Fondi dei premi",
   "The prizes for each lottery round come from three sources:": "I premi per ogni round della lotteria provengono da tre fonti:",
   "Ticket Purchases": "Acquisto di biglietti",
-  "100% of the CAKE paid by people buying tickets that round goes back into the prize pools.": "Il 100% dei CAKE pagati dalle persone che acquistano i biglietti in quel round torna nel montepremi.",
+  "100% of the DAI paid by people buying tickets that round goes back into the prize pools.": "Il 100% dei DAI pagati dalle persone che acquistano i biglietti in quel round torna nel montepremi.",
   "Rollover Prizes": "Riciclo dei premi",
   "After every round, if nobody wins in one of the prize brackets, the unclaimed CAKE for that bracket rolls over into the next round and are redistributed among the prize pools.": "Dopo ogni round, se nessuno vince in una delle fasce di premio, i CAKE non riscossi per quella fascia passano al round successivo e vengono ridistribuiti tra i montepremi.",
   "CAKE Injections": "Immissione di CAKE",

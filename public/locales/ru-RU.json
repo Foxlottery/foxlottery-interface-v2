@@ -660,7 +660,7 @@
   "Prize Funds": "Призовые фонды",
   "The prizes for each lottery round come from three sources:": "Призы за каждый раунд лотереи поступают из трех источников:",
   "Ticket Purchases": "Покупки билетов",
-  "100% of the CAKE paid by people buying tickets that round goes back into the prize pools.": "Сто процентов CAKE, выплаченных теми, кто купил билеты на раунд, возвращаются в призовые пулы.",
+  "100% of the DAI paid by people buying tickets that round goes back into the prize pools.": "Сто процентов DAI, выплаченных теми, кто купил билеты на раунд, возвращаются в призовые пулы.",
   "Rollover Prizes": "Перенос призов",
   "After every round, if nobody wins in one of the prize brackets, the unclaimed CAKE for that bracket rolls over into the next round and are redistributed among the prize pools.": "Если по окончании раунда в одной из категорий призов никто не выигрывает, то не полученные в такой категории CAKE переносятся на следующий раунд и распределяются среди призовых фондов.",
   "CAKE Injections": "Инъекции CAKE",

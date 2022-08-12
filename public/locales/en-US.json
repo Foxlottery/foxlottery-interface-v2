@@ -660,7 +660,7 @@
   "Prize Funds": "Prize Funds",
   "The prizes for each lottery round come from three sources:": "The prizes for each lottery round come from three sources:",
   "Ticket Purchases": "Ticket Purchases",
-  "100% of the CAKE paid by people buying tickets that round goes back into the prize pools.": "100% of the CAKE paid by people buying tickets that round goes back into the prize pools.",
+  "100% of the DAI paid by people buying tickets that round goes back into the prize pools.": "100% of the DAI paid by people buying tickets that round goes back into the prize pools.",
   "Rollover Prizes": "Rollover Prizes",
   "After every round, if nobody wins in one of the prize brackets, the unclaimed CAKE for that bracket rolls over into the next round and are redistributed among the prize pools.": "After every round, if nobody wins in one of the prize brackets, the unclaimed CAKE for that bracket rolls over into the next round and are redistributed among the prize pools.",
   "CAKE Injections": "CAKE Injections",

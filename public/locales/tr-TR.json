@@ -660,7 +660,7 @@
   "Prize Funds": "Ödül Fonu",
   "The prizes for each lottery round come from three sources:": "Her çekiliş turu için ödüller üç kaynaktan gelir:",
   "Ticket Purchases": "Bilet Satın Alımları",
-  "100% of the CAKE paid by people buying tickets that round goes back into the prize pools.": "Bir turda bilet satın alan kişilerin ödediği CAKE miktarının %100'ü ödül havuzlarına geri döner.",
+  "100% of the DAI paid by people buying tickets that round goes back into the prize pools.": "Bir turda bilet satın alan kişilerin ödediği DAI miktarının %100'ü ödül havuzlarına geri döner.",
   "Rollover Prizes": "Devredilen Ödüller",
   "After every round, if nobody wins in one of the prize brackets, the unclaimed CAKE for that bracket rolls over into the next round and are redistributed among the prize pools.": "Ödül gruplarından kimse kazanmazsa, her turdan sonra gruptan sahibi çıkmamış CAKE bir sonraki tura aktarılır ve ödül havuzları arasında yeniden dağıtılır.",
   "CAKE Injections": "CAKE Takviyeleri",

@@ -660,7 +660,7 @@
   "Prize Funds": "Prijzenfonds",
   "The prizes for each lottery round come from three sources:": "De prijzen van elke loterijronde zijn afkomstig uit drie bronnen:",
   "Ticket Purchases": "Ticketverkoop",
-  "100% of the CAKE paid by people buying tickets that round goes back into the prize pools.": "100% van de CAKE die wordt betaald door personen die tickets kopen voor een bepaalde ronde, vloeit terug naar de prijzenpotten.",
+  "100% of the DAI paid by people buying tickets that round goes back into the prize pools.": "100% van de DAI die wordt betaald door personen die tickets kopen voor een bepaalde ronde, vloeit terug naar de prijzenpotten.",
   "Rollover Prizes": "Overgedragen prijzen",
   "After every round, if nobody wins in one of the prize brackets, the unclaimed CAKE for that bracket rolls over into the next round and are redistributed among the prize pools.": "Na elke ronde, als niemand heeft gewonnen in een van de prijzengroepen, wordt de niet geclaimde CAKE van de groep overgedragen naar de volgende ronde en herverdeeld over de prijzenpotten.",
   "CAKE Injections": "CAKE-injecties",

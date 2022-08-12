@@ -660,7 +660,7 @@
   "Prize Funds": "Χρήματα επάθλου",
   "The prizes for each lottery round come from three sources:": "Τα έπαθλα για κάθε γύρο λοταρίας προέρχονται από τρεις πηγές:",
   "Ticket Purchases": "Αγορές λαχείων",
-  "100% of the CAKE paid by people buying tickets that round goes back into the prize pools.": "Το 100% του CAKE από τα λαχεία που αγοράζουν οι συμμετέχοντες σε αυτόν τον γύρο, επιστρέφει στη δεξαμενή με τα έπαθλα.",
+  "100% of the DAI paid by people buying tickets that round goes back into the prize pools.": "Το 100% του DAI από τα λαχεία που αγοράζουν οι συμμετέχοντες σε αυτόν τον γύρο, επιστρέφει στη δεξαμενή με τα έπαθλα.",
   "Rollover Prizes": "Μετακύλιση επάθλων",
   "After every round, if nobody wins in one of the prize brackets, the unclaimed CAKE for that bracket rolls over into the next round and are redistributed among the prize pools.": "Μετά από κάθε γύρο, εάν κανείς δεν κερδίσει μία από τις κατηγορίες των βραβείων, το CAKE που δεν κερδήθηκε στην συγκεκριμένη κατηγορία μεταφέρεται στον επόμενο γύρο και αναδιανέμεται στα έπαθλα της δεξαμενής.",
   "CAKE Injections": "Ενέσεις CAKE",

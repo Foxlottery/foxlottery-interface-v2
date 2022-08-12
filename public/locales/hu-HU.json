@@ -660,7 +660,7 @@
   "Prize Funds": "Nyereményalapok",
   "The prizes for each lottery round come from three sources:": "Minden lottóhúzás nyereményei három forrásból származnak:",
   "Ticket Purchases": "Szelvényvásárlások",
-  "100% of the CAKE paid by people buying tickets that round goes back into the prize pools.": "Az adott forduló szelvény-vásárlói által befizetett CAKE 100% -a visszatér a nyereményalapokba.",
+  "100% of the DAI paid by people buying tickets that round goes back into the prize pools.": "Az adott forduló szelvény-vásárlói által befizetett DAI 100% -a visszatér a nyereményalapokba.",
   "Rollover Prizes": "Halmozódó nyeremények",
   "After every round, if nobody wins in one of the prize brackets, the unclaimed CAKE for that bracket rolls over into the next round and are redistributed among the prize pools.": "Minden forduló után, ha senki sem nyer az egyik nyereménysorozatban, az adott tábláról a CAKE átkerül a következő körbe, és újra szétosztják a nyereményalapok között.",
   "CAKE Injections": "CAKE injekciók",

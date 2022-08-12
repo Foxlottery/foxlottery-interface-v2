@@ -660,7 +660,7 @@
   "Prize Funds": "Prispengar",
   "The prizes for each lottery round come from three sources:": "Priserna för varje lotteriomgång kommer från tre källor:",
   "Ticket Purchases": "Köp av lottsedlar",
-  "100% of the CAKE paid by people buying tickets that round goes back into the prize pools.": "100 % av de CAKE-tokens som betalas av personer som köper lottsedlar under omgången i fråga går tillbaka till prispotten.",
+  "100% of the DAI paid by people buying tickets that round goes back into the prize pools.": "100 % av de DAI-tokens som betalas av personer som köper lottsedlar under omgången i fråga går tillbaka till prispotten.",
   "Rollover Prizes": "Överförda priser",
   "After every round, if nobody wins in one of the prize brackets, the unclaimed CAKE for that bracket rolls over into the next round and are redistributed among the prize pools.": "Om någon efter en viss omgång inte vinner en viss prisklass förs outhämtade CAKE-tokens för klassen i fråga tillbaka till nästa omgång och fördelas bland prispotterna.",
   "CAKE Injections": "Tillskott av CAKE-tokens",

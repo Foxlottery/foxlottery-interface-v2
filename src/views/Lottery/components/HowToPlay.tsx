@@ -307,7 +307,7 @@ const HowToPlay: React.FC = () => {
           <BulletList>
             <li>
               <Text display="inline" color="textSubtle">
-                {t('100% of the CAKE paid by people buying tickets that round goes back into the prize pools.')}
+                {t('100% of the DAI paid by people buying tickets that round goes back into the prize pools.')}
               </Text>
             </li>
           </BulletList>
@@ -353,7 +353,7 @@ const HowToPlay: React.FC = () => {
           <Text>
             {t('Check our in-depth guide on')}{' '}
             <InlineLink href="https://docs.pancakeswap.finance/products/lottery/lottery-guide">
-              {t('how to play the PancakeSwap lottery!')}
+              {t('how to play the LotteriesDao lottery!')}
             </InlineLink>
           </Text>
         </Flex>

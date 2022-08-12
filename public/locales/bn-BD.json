@@ -660,7 +660,7 @@
   "Prize Funds": "পুরস্কারের তহবিল",
   "The prizes for each lottery round come from three sources:": "প্রতিটি লটারির রাউন্ডের জন্য পুরস্কার তিনটি উৎস থেকে আসে:",
   "Ticket Purchases": "টিকিট ক্রয়",
-  "100% of the CAKE paid by people buying tickets that round goes back into the prize pools.": "রাউন্ডের টিকিট কিনে সংশ্লিষ্ট ব্যক্তিদের পরিশোধিত কেক এর 100% পুরস্কারের পুলে চলে যায়।",
+  "100% of the DAI paid by people buying tickets that round goes back into the prize pools.": "রাউন্ডের টিকিট কিনে সংশ্লিষ্ট ব্যক্তিদের পরিশোধিত কেক এর 100% পুরস্কারের পুলে চলে যায়।",
   "Rollover Prizes": "রোলওভার পুরস্কার",
   "After every round, if nobody wins in one of the prize brackets, the unclaimed CAKE for that bracket rolls over into the next round and are redistributed among the prize pools.": "প্রতিটি রাউন্ডের পরে কেউ পুরস্কার গুচ্ছের কোনোটি না জিতলে সেই গুচ্ছের দাবি বিহীন কেক পরবর্তী রাউন্ডে চলে যায় এবং পুরস্কার পুলে বণ্টিত হয়।",
   "CAKE Injections": "CAKE প্রবিষ্টকরণ",

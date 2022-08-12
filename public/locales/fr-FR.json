@@ -660,7 +660,7 @@
   "Prize Funds": "Source des prix",
   "The prizes for each lottery round come from three sources:": "Les prix de chaque tirage de loterie proviennent de trois sources :",
   "Ticket Purchases": "Les achats de tickets",
-  "100% of the CAKE paid by people buying tickets that round goes back into the prize pools.": "L'intégralité des CAKE payés par les acheteurs des tickets pour ce tirage est reversée dans la cagnotte.",
+  "100% of the DAI paid by people buying tickets that round goes back into the prize pools.": "L'intégralité des DAI payés par les acheteurs des tickets pour ce tirage est reversée dans la cagnotte.",
   "Rollover Prizes": "Remise des prix",
   "After every round, if nobody wins in one of the prize brackets, the unclaimed CAKE for that bracket rolls over into the next round and are redistributed among the prize pools.": "Après chaque tirage, si personne ne gagne dans l'une des tranches de prix, les CAKE non remportés pour cette tranche sont transférés au tirage suivant et reversés dans la cagnotte.",
   "CAKE Injections": "Injections de CAKE",

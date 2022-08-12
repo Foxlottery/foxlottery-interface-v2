@@ -660,7 +660,7 @@
   "Prize Funds": "أموال الجائزة",
   "The prizes for each lottery round come from three sources:": "تأتي جوائز كل جولة يانصيب من ثلاثة مصادر:",
   "Ticket Purchases": "شراء التذاكر",
-  "100% of the CAKE paid by people buying tickets that round goes back into the prize pools.": "100% من CAKE التي يدفعها الأشخاص الذين يشترون التذاكر في هذه الجولة تعود إلى تجمُّعات الجوائز.",
+  "100% of the DAI paid by people buying tickets that round goes back into the prize pools.": "100% من DAI التي يدفعها الأشخاص الذين يشترون التذاكر في هذه الجولة تعود إلى تجمُّعات الجوائز.",
   "Rollover Prizes": "جوائز إعادة الاستغلال",
   "After every round, if nobody wins in one of the prize brackets, the unclaimed CAKE for that bracket rolls over into the next round and are redistributed among the prize pools.": "بعد كل جولة، إذا لم يفز أحد في أحد أقواس الجائزة، فإن CAKE غير المطالب بها لهذا القوس يعاد استغلاله في الجولة التالية ويعاد توزيعها بين تجمُّعات الجائزة.",
   "CAKE Injections": "عمليات إضافة CAKE",

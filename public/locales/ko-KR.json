@@ -660,7 +660,7 @@
   "Prize Funds": "상금 자금",
   "The prizes for each lottery round come from three sources:": "각 로터리 라운드에 대한 상금은 세 가지 출처에서 나옵니다:",
   "Ticket Purchases": "티켓 구매",
-  "100% of the CAKE paid by people buying tickets that round goes back into the prize pools.": "해당 라운드에 티켓을 구입하는 사람들이 지불한 CAKE의 100%가 상금 풀에 다시 들어갑니다.",
+  "100% of the DAI paid by people buying tickets that round goes back into the prize pools.": "해당 라운드에 티켓을 구입하는 사람들이 지불한 DAI의 100%가 상금 풀에 다시 들어갑니다.",
   "Rollover Prizes": "상금 이월",
   "After every round, if nobody wins in one of the prize brackets, the unclaimed CAKE for that bracket rolls over into the next round and are redistributed among the prize pools.": "각 라운드 후, 상금 브래킷 중 하나에서 아무도 당첨되지 않으면, 해당 브래킷의 클레임되지 않은 CAKE은 다음 라운드로 이월되고 상금 풀에 재배분됩니다.",
   "CAKE Injections": "CAKE 주입",

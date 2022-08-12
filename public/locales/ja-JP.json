@@ -660,7 +660,7 @@
   "Prize Funds": "賞金の資金財源",
   "The prizes for each lottery round come from three sources:": "各宝くじラウンドの賞金には3つの資金財源があります。",
   "Ticket Purchases": "宝くじ券の購入",
-  "100% of the CAKE paid by people buying tickets that round goes back into the prize pools.": "宝くじ券を購入する人により支払われるCAKEの100％が賞金プールに利用されます。",
+  "100% of the DAI paid by people buying tickets that round goes back into the prize pools.": "宝くじ券を購入する人により支払われるDAIの100％が賞金プールに利用されます。",
   "Rollover Prizes": "賞金の繰り越し",
   "After every round, if nobody wins in one of the prize brackets, the unclaimed CAKE for that bracket rolls over into the next round and are redistributed among the prize pools.": "各ラウンドの後、賞金カテゴリのうちの1つでだれも当選しない場合、そのカテゴリの請求されなかったCAKEは次のラウンドに繰り越しされ、賞金プール内で再分配されます。",
   "CAKE Injections": "CAKE資金の注入",

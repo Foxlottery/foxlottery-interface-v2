@@ -660,7 +660,7 @@
   "Prize Funds": "獎金資金",
   "The prizes for each lottery round come from three sources:": "每個彩券回合的獎金都有三個來源：",
   "Ticket Purchases": "彩券購買",
-  "100% of the CAKE paid by people buying tickets that round goes back into the prize pools.": "購買該回合彩券的購票者所支付的 CAKE 將 100% 注回獎金池。",
+  "100% of the DAI paid by people buying tickets that round goes back into the prize pools.": "購買該回合彩券的購票者所支付的 DAI 將 100% 注回獎金池。",
   "Rollover Prizes": "滾存獎金",
   "After every round, if nobody wins in one of the prize brackets, the unclaimed CAKE for that bracket rolls over into the next round and are redistributed among the prize pools.": "在每一回合之後，如果其中一組獎金中無人中獎，則該組中無人領取的 CAKE 將滾存到下一回合，並且在資金池中重新分配。",
   "CAKE Injections": "CAKE 注入",

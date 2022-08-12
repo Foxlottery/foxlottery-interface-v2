@@ -2,11 +2,11 @@ import { ChainId, Token, WBNB } from '@pancakeswap/sdk'
 
 const CAKE_MAINNET = new Token(
   ChainId.BSC,
-  '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+  '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3',
   18,
-  'CAKE',
-  'PancakeSwap Token',
-  'https://pancakeswap.finance/',
+  'DAI',
+  'Dai Stablecoin',
+  'https://www.makerdao.com/',
 )
 
 const CAKE_TESTNET = new Token(

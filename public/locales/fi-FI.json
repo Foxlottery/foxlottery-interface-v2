@@ -660,7 +660,7 @@
   "Prize Funds": "Palkintovarat",
   "The prizes for each lottery round come from three sources:": "Kunkin arvontakierrokset palkinnot tulevat kolmesta lähteestä:",
   "Ticket Purchases": "Lippuostot",
-  "100% of the CAKE paid by people buying tickets that round goes back into the prize pools.": "100 % CAKEsta, jonka ihmiset maksavat ostaessaan lippuja tällä kierrokselle, palautuu palkintopooleihin.",
+  "100% of the DAI paid by people buying tickets that round goes back into the prize pools.": "100 % DAIsta, jonka ihmiset maksavat ostaessaan lippuja tällä kierrokselle, palautuu palkintopooleihin.",
   "Rollover Prizes": "Kertyneet palkinnot",
   "After every round, if nobody wins in one of the prize brackets, the unclaimed CAKE for that bracket rolls over into the next round and are redistributed among the prize pools.": "Jokaisen kierroksen jälkeen, jos kukaan ei voita jossakin palkintohaarassa, tämän haaran lunastamaton CAKE siirtyy seuraavalle kierrokselle ja jaetaan palkintopooleihin.",
   "CAKE Injections": "CAKE-lisäykset",

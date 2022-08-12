@@ -660,7 +660,7 @@
   "Prize Funds": "पुरस्कार फंड",
   "The prizes for each lottery round come from three sources:": "हर लॉटरी राउंड के पुरस्कार इन तीन स्रोतों से आते हैं:",
   "Ticket Purchases": "टिकट खरीदारियां",
-  "100% of the CAKE paid by people buying tickets that round goes back into the prize pools.": "CAKE का 100% टिकट खरीदने वाले लोगों द्वारा चुकाया जाता है जो राउंड पुरस्कार पूल में वापस चला जाता है।",
+  "100% of the DAI paid by people buying tickets that round goes back into the prize pools.": "DAI का 100% टिकट खरीदने वाले लोगों द्वारा चुकाया जाता है जो राउंड पुरस्कार पूल में वापस चला जाता है।",
   "Rollover Prizes": "रोलओवर पुरस्कार",
   "After every round, if nobody wins in one of the prize brackets, the unclaimed CAKE for that bracket rolls over into the next round and are redistributed among the prize pools.": "हर राउंड के बाद, यदि किसी पुरस्कार ब्रैकेट में कोई नहीं जीतता है तो उस ब्रैकेट के अनक्लेम CAKE अगले राउंड में रोल ओवर हो जाते हैं और पुरस्कार पुल के दौरान वितरित किए जाते हैं।",
   "CAKE Injections": "CAKE इंजेक्शन",
