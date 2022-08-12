@@ -131,7 +131,9 @@ export const getRoundIdsArray = (currentLotteryId: string): string[] => {
   const currentIdAsInt = parseInt(currentLotteryId, 10)
   const roundIds = []
   for (let i = 0; i < NUM_ROUNDS_TO_FETCH_FROM_NODES; i++) {
+    const roundId = currentIdAsInt - i
     roundIds.push(currentIdAsInt - i)
+    if (roundId === 0) break
   }
   return roundIds.map((roundId) => roundId.toString())
 }

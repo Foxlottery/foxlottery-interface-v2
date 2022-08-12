@@ -204,9 +204,13 @@ const PoolAllocations = () => {
           <Text textAlign="right" bold>
             40%
           </Text>
+          <AllocationMatch color="#d13f0f" text={t('Donation')} />
+          <Text textAlign="right" bold>
+            5%
+          </Text>
           <AllocationMatch color="#BDC2C4" text={t('Burn Pool')} />
           <Text textAlign="right" bold>
-            20%
+            15%
           </Text>
         </AllocationGrid>
       </StepCardInner>
@@ -353,7 +357,7 @@ const HowToPlay: React.FC = () => {
           <Text>
             {t('Check our in-depth guide on')}{' '}
             <InlineLink href="https://docs.pancakeswap.finance/products/lottery/lottery-guide">
-              {t('how to play the LotteriesDao lottery!')}
+              {t('how to play the GamblingDao lottery!')}
             </InlineLink>
           </Text>
         </Flex>
