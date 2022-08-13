@@ -9,7 +9,8 @@ interface RewardBracketDetailProps {
   cakeAmount: BigNumber
   rewardBracket?: number
   numberWinners?: string
-  isBurn?: boolean
+  textColor?: string
+  text?: string
   isHistoricRound?: boolean
   isLoading?: boolean
 }
@@ -18,8 +19,9 @@ const RewardBracketDetail: React.FC<RewardBracketDetailProps> = ({
   rewardBracket,
   cakeAmount,
   numberWinners,
+  textColor,
+  text,
   isHistoricRound,
-  isBurn,
   isLoading,
 }) => {
   const { t } = useTranslation()
@@ -27,8 +29,8 @@ const RewardBracketDetail: React.FC<RewardBracketDetailProps> = ({
 
   const getRewardText = () => {
     const numberMatch = rewardBracket + 1
-    if (isBurn) {
-      return t('Burn')
+    if (text) {
+      return text
     }
     if (rewardBracket === 5) {
       return t('Match all %numberMatch%', { numberMatch })
@@ -41,7 +43,7 @@ const RewardBracketDetail: React.FC<RewardBracketDetailProps> = ({
       {isLoading ? (
         <Skeleton mb="4px" mt="8px" height={16} width={80} />
       ) : (
-        <Text bold color={isBurn ? 'failure' : 'secondary'}>
+        <Text bold color={textColor || 'secondary'}>
           {getRewardText()}
         </Text>
       )}

@@ -14,7 +14,7 @@ import {
 import { FooterProps } from "./types";
 import { ThemeSwitcher } from "../ThemeSwitcher";
 import LangSelector from "../LangSelector/LangSelector";
-import CakePrice from "../CakePrice/CakePrice";
+// import CakePrice from "../CakePrice/CakePrice";
 import { LogoWithTextIcon, ArrowForwardIcon } from "../Svg";
 import { Button } from "../Button";
 import { Colors } from "../..";
@@ -26,7 +26,7 @@ const MenuItem: React.FC<FooterProps> = ({
   currentLang,
   langs,
   setLang,
-  cakePriceUsd,
+  // cakePriceUsd,
   buyCakeLabel,
   ...props
 }) => {
@@ -89,15 +89,15 @@ const MenuItem: React.FC<FooterProps> = ({
             <Box mr="20px">
               {/* <CakePrice cakePriceUsd={cakePriceUsd} color={darkColors.textSubtle as keyof Colors} /> */}
             </Box>
-            {/* <Button
+            <Button
               as="a"
-              href="https://pancakeswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+              href="https://www.coinbase.com/en/price/dai"
               target="_blank"
               scale="sm"
               endIcon={<ArrowForwardIcon color={lightColors.backgroundAlt} />}
             >
               {buyCakeLabel}
-            </Button> */}
+            </Button>
           </Flex>
         </StyledToolsContainer>
       </Flex>

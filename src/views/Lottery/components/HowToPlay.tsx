@@ -165,11 +165,32 @@ const AllocationMatch: React.FC<{ color: string; text: string }> = ({ color, tex
 
 const PoolAllocations = () => {
   const { t } = useTranslation()
+  const labels: string[] = [
+    t('Matches first %digits%', { digits: 1 }),
+    t('Matches first %digits%', { digits: 2 }),
+    t('Matches first %digits%', { digits: 3 }),
+    t('Matches first %digits%', { digits: 4 }),
+    t('Matches first %digits%', { digits: 5 }),
+    t('Matches first %digits%', { digits: 6 }),
+    'Donation',
+    'Burn Pool',
+  ]
+  const datas: number[] = [2, 3, 5, 10, 20, 40, 5, 15]
+  const backgroundColors: string[] = [
+    '#FFE362',
+    '#85C54E',
+    '#028E75',
+    '#36E8F5',
+    '#A881FC',
+    '#D750B2',
+    '#d13f0f',
+    '#BDC2C4',
+  ]
   return (
     <StyledStepCard width={['280px', '330px', '380px']}>
       <StepCardInner height="auto">
         <Flex mb="32px" justifyContent="center">
-          <PoolAllocationChart width="100px" height="100px" />
+          <PoolAllocationChart labels={labels} datas={datas} backgroundColors={backgroundColors} />
         </Flex>
         <Flex justifyContent="space-between">
           <Text fontSize="12px" color="secondary" bold textTransform="uppercase">
@@ -229,7 +250,7 @@ const HowToPlay: React.FC = () => {
     {
       label: t('Step %number%', { number: 1 }),
       title: t('Buy Tickets'),
-      subtitle: t('Prices are set when the round starts, equal to 5 USD in CAKE per ticket.'),
+      subtitle: t('Prices are set when the round starts, equal to 5 USD in DAI per ticket.'),
     },
     {
       label: t('Step %number%', { number: 2 }),
@@ -322,23 +343,20 @@ const HowToPlay: React.FC = () => {
             <li>
               <Text display="inline" color="textSubtle">
                 {t(
-                  'After every round, if nobody wins in one of the prize brackets, the unclaimed CAKE for that bracket rolls over into the next round and are redistributed among the prize pools.',
+                  'After every round, if nobody wins in one of the prize brackets, the unclaimed DAI for that bracket rolls over into the next round and are redistributed among the prize pools.',
                 )}
               </Text>
             </li>
           </BulletList>
           <Heading my="16px" scale="md">
-            {t('CAKE Injections')}
+            {t('Donation')}
           </Heading>
           <BulletList>
             <li>
               <Text display="inline" color="textSubtle">
                 {t(
-                  'An average total of 35,000 CAKE from the treasury is added to lottery rounds over the course of a week. This CAKE is of course also included in rollovers! Read more in our guide to ',
+                  '5% of the amount raised will be voted on the blockchain and donated to a specific organization. In the initial stages of the project, the money will be donated to specific organizations by voting on twitter.',
                 )}
-                <InlineLink href="https://docs.pancakeswap.finance/tokenomics/cake/cake-tokenomics">
-                  {t('CAKE Tokenomics')}
-                </InlineLink>
               </Text>
             </li>
           </BulletList>
