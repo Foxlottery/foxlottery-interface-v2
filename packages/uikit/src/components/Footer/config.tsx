@@ -54,7 +54,7 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/pancakeswap",
+        href: "https://github.com/GamblingDAO",
       },
       {
         label: "Documentation",
@@ -80,22 +80,22 @@ export const socials = [
   {
     label: "Twitter",
     icon: TwitterIcon,
-    href: "https://twitter.com/pancakeswap",
+    href: "https://twitter.com/gamblingdao",
   },
-  {
-    label: "Telegram",
-    icon: TelegramIcon,
-    items: [
-      {
-        label: "English",
-        href: "https://t.me/pancakeswap",
-      },
-      {
-        label: "Announcements",
-        href: "https://t.me/PancakeSwapAnn",
-      },
-    ],
-  },
+  // {
+  //   label: "Telegram",
+  //   icon: TelegramIcon,
+  //   items: [
+  //     {
+  //       label: "English",
+  //       href: "https://t.me/pancakeswap",
+  //     },
+  //     {
+  //       label: "Announcements",
+  //       href: "https://t.me/PancakeSwapAnn",
+  //     },
+  //   ],
+  // },
   // {
   //   label: "Reddit",
   //   icon: RedditIcon,
@@ -109,12 +109,12 @@ export const socials = [
   {
     label: "Github",
     icon: GithubIcon,
-    href: "https://github.com/pancakeswap/",
+    href: "https://github.com/GamblingDAO",
   },
   {
     label: "Discord",
     icon: DiscordIcon,
-    href: "https://discord.gg/pancakeswap",
+    href: "https://discord.gg/ddpVvnPZum",
   },
   // {
   //   label: "Medium",
