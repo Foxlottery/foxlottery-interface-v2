@@ -7,15 +7,15 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Contact'),
-        href: 'https://docs.pancakeswap.finance/contact-us',
+        href: 'https://twitter.com/gamblingdao',
       },
-      {
-        label: t('Whitepaper'),
-        href: 'https://docs.pancakeswap.finance/brand',
-      },
+      // {
+      //   label: t('Whitepaper'),
+      //   href: 'https://docs.pancakeswap.finance/brand',
+      // },
       {
         label: t('Community'),
-        href: 'https://docs.pancakeswap.finance/contact-us/telegram',
+        href: 'https://discord.com/invite/ddpVvnPZum',
       },
     ],
   },
@@ -26,10 +26,10 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
         label: 'Github',
         href: 'https://github.com/GamblingDAO',
       },
-      {
-        label: t('Documentation'),
-        href: 'https://docs.pancakeswap.finance',
-      },
+      // {
+      //   label: t('Documentation'),
+      //   href: 'https://docs.pancakeswap.finance',
+      // },
     ],
   },
 ]

@@ -6,7 +6,7 @@ export const DEFAULT_META: PageMeta = {
   title: 'GamblingDao',
   description:
     'GamblingDao offers gambling on a decentralized blockchain network.We maintain low costs and donate the profits earned to better society.',
-  image: 'https://pancakeswap.finance/images/hero.png',
+  image: 'https://gamblingdao.org/images/hero.png',
 }
 
 interface PathList {

@@ -365,8 +365,8 @@ const HowToPlay: React.FC = () => {
           <PoolAllocations />
         </Flex>
       </GappedFlex>
-      <Divider />
-      <Flex justifyContent="center" alignItems="center" flexDirection={['column', 'column', 'row']}>
+      {/* <Divider /> */}
+      {/* <Flex justifyContent="center" alignItems="center" flexDirection={['column', 'column', 'row']}>
         <Image width={240} height={172} src="/images/lottery/tombola.png" alt="tombola bunny" mr="8px" mb="16px" />
         <Flex maxWidth="300px" flexDirection="column">
           <Heading mb="16px" scale="md">
@@ -379,7 +379,7 @@ const HowToPlay: React.FC = () => {
             </InlineLink>
           </Text>
         </Flex>
-      </Flex>
+      </Flex> */}
     </Box>
   )
 }

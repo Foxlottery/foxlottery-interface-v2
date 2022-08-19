@@ -48,10 +48,7 @@ const NotOkProfilePoints = ({ pointThreshold }) => {
       element={
         <>
           <br />
-          <LinkExternal
-            style={{ display: 'inline' }}
-            href={`https://pancakeswap.finance/profile/${account}/achievements/`}
-          >
+          <LinkExternal style={{ display: 'inline' }} href={`https://gamblingdao.org/profile/${account}/achievements/`}>
             {t('Pancake Profile')}
           </LinkExternal>
         </>

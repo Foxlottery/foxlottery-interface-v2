@@ -45,8 +45,8 @@ const PhishingWarningBanner: React.FC = () => {
   const [, hideBanner] = usePhishingBannerManager()
   const { isMobile, isMd } = useMatchBreakpointsContext()
   const warningTextAsParts = useMemo(() => {
-    const warningText = t("please make sure you're visiting https://pancakeswap.finance - check the URL carefully.")
-    return warningText.split(/(https:\/\/pancakeswap.finance)/g)
+    const warningText = t("please make sure you're visiting https://gamblingdao.org - check the URL carefully.")
+    return warningText.split(/(https:\/\/gamblingdao.org)/g)
   }, [t])
   const warningTextComponent = (
     <>
@@ -59,8 +59,8 @@ const PhishingWarningBanner: React.FC = () => {
           key={i}
           small
           as="span"
-          bold={text === 'https://pancakeswap.finance'}
-          color={text === 'https://pancakeswap.finance' ? '#FFFFFF' : '#BDC2C4'}
+          bold={text === 'https://gamblingdao.org'}
+          color={text === 'https://gamblingdao.org' ? '#FFFFFF' : '#BDC2C4'}
         >
           {text}
         </Text>
@@ -79,7 +79,7 @@ const PhishingWarningBanner: React.FC = () => {
       ) : (
         <>
           <InnerContainer>
-            <img
+            {/* <img
               src="/images/decorations/phishing-warning-bunny.webp"
               alt="phishing-warning"
               width="92px"
@@ -90,7 +90,7 @@ const PhishingWarningBanner: React.FC = () => {
                   e.currentTarget.src = fallbackSrc
                 }
               }}
-            />
+            /> */}
             <SpeechBubble>{warningTextComponent}</SpeechBubble>
           </InnerContainer>
           <IconButton onClick={hideBanner} variant="text">
