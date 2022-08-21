@@ -41,18 +41,21 @@ const initialState: LotteryState = {
   userLotteryData: { account: '', totalCake: '', totalTickets: '', rounds: [] },
 }
 
-export const fetchCurrentLottery = createAsyncThunk<LotteryResponse, { currentLotteryId: string }>(
+export const fetchCurrentLottery = createAsyncThunk<LotteryResponse, { currentLotteryId: string; chainId?: number }>(
   'lottery/fetchCurrentLottery',
-  async ({ currentLotteryId }) => {
-    const lotteryInfo = await fetchLottery(currentLotteryId)
+  async ({ currentLotteryId, chainId }) => {
+    const lotteryInfo = await fetchLottery(currentLotteryId, chainId)
     return lotteryInfo
   },
 )
 
-export const fetchCurrentLotteryId = createAsyncThunk<PublicLotteryData>('lottery/fetchCurrentLotteryId', async () => {
-  const currentIdAndMaxBuy = await fetchCurrentLotteryIdAndMaxBuy()
-  return currentIdAndMaxBuy
-})
+export const fetchCurrentLotteryId = createAsyncThunk<PublicLotteryData, { chainId?: number }>(
+  'lottery/fetchCurrentLotteryId',
+  async (chainId) => {
+    const currentIdAndMaxBuy = await fetchCurrentLotteryIdAndMaxBuy({ chainId })
+    return currentIdAndMaxBuy
+  },
+)
 
 export const fetchUserTicketsAndLotteries = createAsyncThunk<
   { userTickets: LotteryTicket[]; userLotteries: LotteryUserGraphEntity },

@@ -1,7 +1,7 @@
 import type { Signer } from '@ethersproject/abstract-signer'
 import type { Provider } from '@ethersproject/providers'
 import { Contract } from '@ethersproject/contracts'
-import { bscRpcProvider } from 'utils/providers'
+import { bscRpcProvider, bscTestRpcProvider } from 'utils/providers'
 import poolsConfig from 'config/constants/pools'
 import { PoolCategory } from 'config/constants/types'
 import { CAKE } from 'config/constants/tokens'
@@ -133,6 +133,7 @@ import type {
   PredictionsV1,
 } from 'config/abi/types'
 import { ChainId } from '@pancakeswap/sdk'
+import { BSC_BLOCK_TIME } from 'config'
 
 export const getContract = (abi: any, address: string, signer?: Signer | Provider) => {
   const signerOrProvider = signer ?? bscRpcProvider
@@ -185,8 +186,11 @@ export const getBunnyFactoryContract = (signer?: Signer | Provider) => {
 export const getBunnySpecialContract = (signer?: Signer | Provider) => {
   return getContract(bunnySpecialAbi, getBunnySpecialAddress(), signer) as BunnySpecial
 }
-export const getLotteryV2Contract = (signer?: Signer | Provider) => {
-  return getContract(lotteryV2Abi, getLotteryV2Address(), signer) as LotteryV2
+export const getLotteryV2Contract = (signer?: Signer | Provider, chainId?: number) => {
+  if (chainId === ChainId.BSC_TESTNET) {
+    return getContract(lotteryV2Abi, getLotteryV2Address(chainId), bscTestRpcProvider) as LotteryV2
+  }
+  return getContract(lotteryV2Abi, getLotteryV2Address(chainId), signer) as LotteryV2
 }
 export const getMasterchefContract = (signer?: Signer | Provider) => {
   return getContract(masterChef, getMasterChefAddress(), signer) as Masterchef
