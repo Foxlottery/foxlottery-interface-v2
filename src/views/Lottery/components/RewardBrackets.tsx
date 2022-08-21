@@ -53,7 +53,7 @@ const RewardBrackets: React.FC<RewardMatchesProps> = ({ lotteryNodeData, isHisto
 
       const feeAsPercentage = new BigNumber(treasuryFee).times(3 / 4).div(100)
       const cakeToBurn = feeAsPercentage.div(100).times(new BigNumber(amountCollectedInCake))
-      const donationFeeAsPercentage = new BigNumber(treasuryFee).times(1 / 4).div(100)
+      const donationFeeAsPercentage = new BigNumber(treasuryFee).times(1 / 20).div(100)
       const donationAmount = donationFeeAsPercentage.div(100).times(new BigNumber(amountCollectedInCake))
 
       const amountLessTreasuryFee = new BigNumber(amountCollectedInCake).minus(cakeToBurn)
