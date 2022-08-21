@@ -79,7 +79,7 @@ const PhishingWarningBanner: React.FC = () => {
       ) : (
         <>
           <InnerContainer>
-            {/* <img
+            <img
               src="/images/decorations/phishing-warning-bunny.webp"
               alt="phishing-warning"
               width="92px"
@@ -90,7 +90,7 @@ const PhishingWarningBanner: React.FC = () => {
                   e.currentTarget.src = fallbackSrc
                 }
               }}
-            /> */}
+            />
             <SpeechBubble>{warningTextComponent}</SpeechBubble>
           </InnerContainer>
           <IconButton onClick={hideBanner} variant="text">

@@ -175,7 +175,7 @@ const PoolAllocations = () => {
     'Donation',
     'Burn Pool',
   ]
-  const datas: number[] = [2, 3, 5, 10, 20, 40, 5, 15]
+  const datas: number[] = [2, 3, 5, 10, 20, 40, 1, 19]
   const backgroundColors: string[] = [
     '#FFE362',
     '#85C54E',
@@ -227,11 +227,11 @@ const PoolAllocations = () => {
           </Text>
           <AllocationMatch color="#d13f0f" text={t('Donation')} />
           <Text textAlign="right" bold>
-            5%
+            1%
           </Text>
           <AllocationMatch color="#BDC2C4" text={t('Burn Pool')} />
           <Text textAlign="right" bold>
-            15%
+            19%
           </Text>
         </AllocationGrid>
       </StepCardInner>
@@ -355,7 +355,7 @@ const HowToPlay: React.FC = () => {
             <li>
               <Text display="inline" color="textSubtle">
                 {t(
-                  '5% of the amount raised will be voted on the blockchain and donated to a specific organization. In the initial stages of the project, the money will be donated to specific organizations by voting on twitter.',
+                  '1% of the amount raised will be voted on the blockchain and donated to a specific organization. In the initial stages of the project, the money will be donated to specific organizations by voting on twitter.',
                 )}
               </Text>
             </li>
@@ -365,8 +365,8 @@ const HowToPlay: React.FC = () => {
           <PoolAllocations />
         </Flex>
       </GappedFlex>
-      {/* <Divider /> */}
-      {/* <Flex justifyContent="center" alignItems="center" flexDirection={['column', 'column', 'row']}>
+      <Divider />
+      <Flex justifyContent="center" alignItems="center" flexDirection={['column', 'column', 'row']}>
         <Image width={240} height={172} src="/images/lottery/tombola.png" alt="tombola bunny" mr="8px" mb="16px" />
         <Flex maxWidth="300px" flexDirection="column">
           <Heading mb="16px" scale="md">
@@ -374,12 +374,12 @@ const HowToPlay: React.FC = () => {
           </Heading>
           <Text>
             {t('Check our in-depth guide on')}{' '}
-            <InlineLink href="https://docs.pancakeswap.finance/products/lottery/lottery-guide">
+            <InlineLink href="https://gamblingdao.gitbook.io/gamblingdao/lottery/how-to-play-lottery">
               {t('how to play the GamblingDao lottery!')}
             </InlineLink>
           </Text>
         </Flex>
-      </Flex> */}
+      </Flex>
     </Box>
   )
 }
