@@ -24,7 +24,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/GamblingDAO',
+        href: 'https://github.com/Foxlottery',
       },
       // {
       //   label: t('Documentation'),

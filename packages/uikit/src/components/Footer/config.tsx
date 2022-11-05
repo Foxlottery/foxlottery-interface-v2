@@ -54,7 +54,7 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/GamblingDAO",
+        href: "https://github.com/Foxlottery",
       },
       {
         label: "Documentation",
@@ -109,7 +109,7 @@ export const socials = [
   {
     label: "Github",
     icon: GithubIcon,
-    href: "https://github.com/GamblingDAO",
+    href: "https://github.com/Foxlottery",
   },
   {
     label: "Discord",
