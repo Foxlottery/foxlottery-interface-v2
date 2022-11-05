@@ -13,7 +13,7 @@ const useStatusTransitions = () => {
     currentRound: { status },
   } = useLottery()
 
-  const { account } = useWeb3React()
+  const { account, chainId } = useWeb3React()
   const dispatch = useAppDispatch()
   const previousStatus = usePreviousValue(status)
 
@@ -41,10 +41,10 @@ const useStatusTransitions = () => {
     // Current lottery is CLAIMABLE and the lottery is transitioning to a NEW round - fetch current lottery ID every 10s.
     // The isTransitioning condition will no longer be true when fetchCurrentLotteryId returns the next lottery ID
     if (previousStatus === LotteryStatus.CLAIMABLE && status === LotteryStatus.CLAIMABLE && isTransitioning) {
-      dispatch(fetchCurrentLotteryId())
+      dispatch(fetchCurrentLotteryId({ chainId }))
       dispatch(fetchPublicLotteries({ currentLotteryId }))
       const interval = setInterval(async () => {
-        dispatch(fetchCurrentLotteryId())
+        dispatch(fetchCurrentLotteryId({ chainId }))
         dispatch(fetchPublicLotteries({ currentLotteryId }))
       }, 10000)
       return () => clearInterval(interval)

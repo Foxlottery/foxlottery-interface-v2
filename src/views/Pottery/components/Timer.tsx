@@ -14,7 +14,7 @@ const FlexContainer = styled(FlexGap)`
 `
 
 const StyledTimerText = styled(Heading)`
-  background: linear-gradient(180deg, #8051d6 0%, #492286 100%);
+  background: linear-gradient(180deg, #5cd651 0%, #278622 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 `

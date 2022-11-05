@@ -6,6 +6,7 @@ import { useAppDispatch } from 'state'
 import { useLottery } from 'state/lottery/hooks'
 import { fetchLottery } from 'state/lottery/helpers'
 import { LotteryStatus } from 'config/constants/types'
+import { useWeb3React } from '@web3-react/core'
 import RoundSwitcher from './RoundSwitcher'
 import { getDrawnDate, processLotteryResponse } from '../../helpers'
 import PreviousRoundCardBody from '../PreviousRoundCard/Body'
@@ -40,6 +41,7 @@ const AllHistoryCard = () => {
   const [selectedRoundId, setSelectedRoundId] = useState('')
   const [selectedLotteryNodeData, setSelectedLotteryNodeData] = useState(null)
   const timer = useRef(null)
+  const { chainId } = useWeb3React()
 
   const numRoundsFetched = lotteriesData?.length
 
@@ -57,7 +59,7 @@ const AllHistoryCard = () => {
     setSelectedLotteryNodeData(null)
 
     const fetchLotteryData = async () => {
-      const lotteryData = await fetchLottery(selectedRoundId)
+      const lotteryData = await fetchLottery(selectedRoundId, chainId)
       const processedLotteryData = processLotteryResponse(lotteryData)
       setSelectedLotteryNodeData(processedLotteryData)
     }
@@ -70,7 +72,7 @@ const AllHistoryCard = () => {
     }, 1000)
 
     return () => clearInterval(timer.current)
-  }, [selectedRoundId, currentLotteryId, numRoundsFetched, dispatch])
+  }, [selectedRoundId, currentLotteryId, numRoundsFetched, dispatch, chainId])
 
   const handleInputChange = (event) => {
     const {

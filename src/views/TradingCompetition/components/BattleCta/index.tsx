@@ -219,7 +219,7 @@ const BattleCta: React.FC<CompetitionProps> = ({
                   scale="sm"
                   variant="secondary"
                   onClick={() => {
-                    window.open('https://twitter.com/gamblingdao', '_blank', 'noopener noreferrer')
+                    window.open('https://twitter.com/foxlottery', '_blank', 'noopener noreferrer')
                   }}
                 >
                   <TwitterIcon color="textSubtle" fontSize="12px" mr="5px" />

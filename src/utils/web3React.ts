@@ -37,9 +37,9 @@ export const connectorsByName = {
   [ConnectorNames.WalletLink]: async () => {
     const { WalletLinkConnector } = await import('@web3-react/walletlink-connector')
     return new WalletLinkConnector({
-      url: 'https://gamblingdao.org',
-      appName: 'GamblingDao',
-      appLogoUrl: 'https://gamblingdao.org/logo.png',
+      url: 'https://demo.foxlottery.org',
+      appName: 'Foxlottery',
+      appLogoUrl: 'https://demo.foxlottery.org/logo.png',
       supportedChainIds: SUPPORTED_CHAIN_ID,
     })
   },

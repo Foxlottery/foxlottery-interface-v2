@@ -10,10 +10,10 @@ const Container = styled(Flex)`
   padding: 12px;
   align-items: center;
   background: linear-gradient(0deg, rgba(39, 38, 44, 0.4), rgba(39, 38, 44, 0.4)),
-    linear-gradient(180deg, #8051d6 0%, #492286 100%);
+    linear-gradient(180deg, #5cd651 0%, #278622 100%);
   ${({ theme }) => theme.mediaQueries.md} {
     padding: 0px;
-    background: linear-gradient(180deg, #8051d6 0%, #492286 100%);
+    background: linear-gradient(180deg, #5cd651 0%, #278622 100%);
   }
 `
 
@@ -45,8 +45,8 @@ const PhishingWarningBanner: React.FC = () => {
   const [, hideBanner] = usePhishingBannerManager()
   const { isMobile, isMd } = useMatchBreakpointsContext()
   const warningTextAsParts = useMemo(() => {
-    const warningText = t("please make sure you're visiting https://gamblingdao.org - check the URL carefully.")
-    return warningText.split(/(https:\/\/gamblingdao.org)/g)
+    const warningText = t("please make sure you're visiting https://demo.foxlottery.org - check the URL carefully.")
+    return warningText.split(/(https:\/\/demo.foxlottery.org)/g)
   }, [t])
   const warningTextComponent = (
     <>
@@ -59,8 +59,8 @@ const PhishingWarningBanner: React.FC = () => {
           key={i}
           small
           as="span"
-          bold={text === 'https://gamblingdao.org'}
-          color={text === 'https://gamblingdao.org' ? '#FFFFFF' : '#BDC2C4'}
+          bold={text === 'https://demo.foxlottery.org'}
+          color={text === 'https://demo.foxlottery.org' ? '#FFFFFF' : '#BDC2C4'}
         >
           {text}
         </Text>

@@ -7,7 +7,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Contact'),
-        href: 'https://twitter.com/gamblingdao',
+        href: 'https://twitter.com/foxlottery',
       },
       // {
       //   label: t('Whitepaper'),
@@ -24,7 +24,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/GamblingDAO',
+        href: 'https://github.com/Foxlottery',
       },
       // {
       //   label: t('Documentation'),

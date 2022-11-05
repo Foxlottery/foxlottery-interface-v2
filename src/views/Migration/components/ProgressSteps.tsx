@@ -13,7 +13,7 @@ const Circle = styled.div`
   font-size: 21px;
   color: #ffffff;
   border-radius: 50%;
-  background: linear-gradient(180deg, #8051d6 0%, #492286 100%);
+  background: linear-gradient(180deg, #5cd651 0%, #278622 100%);
   z-index: 1;
 
   ${({ theme }) => theme.mediaQueries.lg} {
@@ -67,7 +67,7 @@ const Step = styled.div<{ confirmed?: boolean; disabled?: boolean; canHover?: bo
       disabled
         ? theme.colors.textDisabled
         : confirmed
-        ? 'linear-gradient(180deg, #8051D6 0%, #492286 100%)'
+        ? 'linear-gradient(180deg, #8051D6 0%, #278622 100%)'
         : theme.colors.textSubtle};
   }
 

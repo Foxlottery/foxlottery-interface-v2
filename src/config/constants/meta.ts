@@ -3,10 +3,10 @@ import { ContextApi } from 'contexts/Localization/types'
 import { PageMeta } from './types'
 
 export const DEFAULT_META: PageMeta = {
-  title: 'GamblingDao',
+  title: 'Foxlottery',
   description:
-    'GamblingDao offers gambling on a decentralized blockchain network.We maintain low costs and donate the profits earned to better society.',
-  image: 'https://gamblingdao.org/images/hero.png',
+    'Foxlottery offers lottery on a decentralized blockchain network.We maintain low costs and donate the profits earned to better society.',
+  image: 'https://demo.foxlottery.org/images/hero.png',
 }
 
 interface PathList {
@@ -45,7 +45,7 @@ const getPathList = (t: ContextApi['t']): PathList => {
       '/pancake-squad': { basePath: true, title: t('Pancake Squad') },
       '/pottery': { basePath: true, title: t('Pottery') },
     },
-    defaultTitleSuffix: t('GamblingDao'),
+    defaultTitleSuffix: t('Foxlottery'),
   }
 }
 
