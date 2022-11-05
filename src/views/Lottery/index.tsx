@@ -110,7 +110,7 @@ const Lottery = () => {
         <PageSection
           dividerPosition="top"
           dividerFill={{ light: theme.colors.background }}
-          clipFill={{ light: '#59c19b', dark: '#66578D' }}
+          clipFill={{ light: '#59c19b', dark: '#578d78' }}
           index={2}
         >
           <HowToPlay />
