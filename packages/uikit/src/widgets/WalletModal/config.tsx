@@ -18,7 +18,7 @@ const connectors: Config[] = [
     icon: Metamask,
     connectorId: ConnectorNames.Injected,
     priority: 1,
-    href: "https://metamask.app.link/dapp/gamblingdao.org/",
+    href: "https://metamask.app.link/dapp/demo.foxlottery.org/",
   },
   {
     title: "Binance Wallet",
@@ -37,7 +37,7 @@ const connectors: Config[] = [
     icon: TrustWallet,
     connectorId: ConnectorNames.Injected,
     priority: 4,
-    href: "https://link.trustwallet.com/open_url?coin_id=20000714&url=https://gamblingdao.org/",
+    href: "https://link.trustwallet.com/open_url?coin_id=20000714&url=https://demo.foxlottery.org/",
   },
   {
     title: "WalletConnect",

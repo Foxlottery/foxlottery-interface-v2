@@ -68,7 +68,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="GamblingDao offers gambling on a decentralized blockchain network.We maintain low costs and donate the profits earned to better society."
         />
         <meta name="theme-color" content="#1FC7D4" />
-        <meta name="twitter:image" content="https://gamblingdao.org/images/hero.png" />
+        <meta name="twitter:image" content="https://demo.foxlottery.org/images/hero.png" />
         <meta
           name="twitter:description"
           content="GamblingDao offers gambling on a decentralized blockchain network.We maintain low costs and donate the profits earned to better society."

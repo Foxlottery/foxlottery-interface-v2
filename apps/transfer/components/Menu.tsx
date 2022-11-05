@@ -67,13 +67,13 @@ export function Menu() {
   return (
     <Flex height="56px" bg="backgroundAlt" px="16px" alignItems="center" justifyContent="space-between" zIndex={1}>
       <Flex>
-        <Logo isDark={theme.isDark} href="https://gamblingdao.org" />
+        <Logo isDark={theme.isDark} href="https://demo.foxlottery.org" />
 
         <Flex pl={['25px', null, '50px']}>
           <NextLink href="/" passHref>
             <StyledMenuItem $isActive>Transfer</StyledMenuItem>
           </NextLink>
-          <StyledMenuItem href="https://gamblingdao.org/swap">Swap</StyledMenuItem>
+          <StyledMenuItem href="https://demo.foxlottery.org/swap">Swap</StyledMenuItem>
         </Flex>
       </Flex>
       <Flex alignItems="center">

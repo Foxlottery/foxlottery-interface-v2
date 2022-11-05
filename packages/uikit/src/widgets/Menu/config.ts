@@ -161,7 +161,7 @@ export const userMenulinks: DropdownMenuItems[] = [
   },
   {
     type: DropdownMenuItemType.EXTERNAL_LINK,
-    href: "https://gamblingdao.org",
+    href: "https://demo.foxlottery.org",
     label: "Link",
   },
   {
