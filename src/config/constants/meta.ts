@@ -5,7 +5,7 @@ import { PageMeta } from './types'
 export const DEFAULT_META: PageMeta = {
   title: 'Foxlottery',
   description:
-    'Foxlottery offers gambling on a decentralized blockchain network.We maintain low costs and donate the profits earned to better society.',
+    'Foxlottery offers lottery on a decentralized blockchain network.We maintain low costs and donate the profits earned to better society.',
   image: 'https://demo.foxlottery.org/images/hero.png',
 }
 
