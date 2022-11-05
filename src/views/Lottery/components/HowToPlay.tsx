@@ -374,8 +374,8 @@ const HowToPlay: React.FC = () => {
           </Heading>
           <Text>
             {t('Check our in-depth guide on')}{' '}
-            <InlineLink href="https://gamblingdao.gitbook.io/gamblingdao/lottery/how-to-play-lottery">
-              {t('how to play the GamblingDao lottery!')}
+            <InlineLink href="https://foxlottery.gitbook.io/foxlottery/lottery/how-to-play-lottery">
+              {t('how to play the Foxlottery lottery!')}
             </InlineLink>
           </Text>
         </Flex>

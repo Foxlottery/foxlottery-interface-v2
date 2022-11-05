@@ -65,17 +65,17 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta
           name="description"
-          content="GamblingDao offers gambling on a decentralized blockchain network.We maintain low costs and donate the profits earned to better society."
+          content="Foxlottery offers gambling on a decentralized blockchain network.We maintain low costs and donate the profits earned to better society."
         />
         <meta name="theme-color" content="#1FC7D4" />
         <meta name="twitter:image" content="https://demo.foxlottery.org/images/hero.png" />
         <meta
           name="twitter:description"
-          content="GamblingDao offers gambling on a decentralized blockchain network.We maintain low costs and donate the profits earned to better society."
+          content="Foxlottery offers gambling on a decentralized blockchain network.We maintain low costs and donate the profits earned to better society."
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="🥞 GamblingDao - Distributed Gambling" />
-        <title>GamblingDao</title>
+        <meta name="twitter:title" content="Foxlottery - Distributed Gambling" />
+        <title>Foxlottery</title>
       </Head>
       <WagmiConfig client={client}>
         <NextThemeProvider>

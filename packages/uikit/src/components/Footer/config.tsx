@@ -80,7 +80,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: TwitterIcon,
-    href: "https://twitter.com/gamblingdao",
+    href: "https://twitter.com/foxlottery",
   },
   // {
   //   label: "Telegram",

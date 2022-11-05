@@ -67,17 +67,17 @@ function MyApp(props: AppProps) {
         />
         <meta
           name="description"
-          content="GamblingDao offers gambling on a decentralized blockchain network.We maintain low costs and donate the profits earned to better society."
+          content="Foxlottery offers gambling on a decentralized blockchain network.We maintain low costs and donate the profits earned to better society."
         />
         <meta name="theme-color" content="#1FC7D4" />
         <meta name="twitter:image" content="https://demo.foxlottery.org/images/hero.png" />
         <meta
           name="twitter:description"
-          content="GamblingDao offers gambling on a decentralized blockchain network.We maintain low costs and donate the profits earned to better society."
+          content="Foxlottery offers gambling on a decentralized blockchain network.We maintain low costs and donate the profits earned to better society."
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="GamblingDao" />
-        <title>GamblingDao</title>
+        <meta name="twitter:title" content="Foxlottery" />
+        <title>Foxlottery</title>
         {(Component as NextPageWithLayout).mp && (
           // eslint-disable-next-line @next/next/no-sync-scripts
           <script src="https://public.bnbstatic.com/static/js/mp-webview-sdk/webview-v1.0.0.min.js" id="mp-webview" />
