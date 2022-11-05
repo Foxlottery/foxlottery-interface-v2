@@ -54,7 +54,7 @@ const Lottery = () => {
           containerProps={{ style: { marginTop: '-30px' } }}
           background={GET_TICKETS_BG}
           concaveDivider
-          clipFill={{ light: '#7645D9' }}
+          clipFill={{ light: '#77C159' }}
           dividerPosition="top"
           index={2}
         >
@@ -110,7 +110,7 @@ const Lottery = () => {
         <PageSection
           dividerPosition="top"
           dividerFill={{ light: theme.colors.background }}
-          clipFill={{ light: '#9A9FD0', dark: '#66578D' }}
+          clipFill={{ light: '#59c19b', dark: '#66578D' }}
           index={2}
         >
           <HowToPlay />

@@ -181,9 +181,9 @@ const PoolAllocations = () => {
     '#85C54E',
     '#028E75',
     '#36E8F5',
-    '#A881FC',
-    '#D750B2',
-    '#d13f0f',
+    '#aafc81',
+    '#6fd99e',
+    '#77C159',
     '#BDC2C4',
   ]
   return (
@@ -217,15 +217,15 @@ const PoolAllocations = () => {
           <Text textAlign="right" bold>
             10%
           </Text>
-          <AllocationMatch color="#A881FC" text={t('Matches first %digits%', { digits: 5 })} />
+          <AllocationMatch color="#aafc81" text={t('Matches first %digits%', { digits: 5 })} />
           <Text textAlign="right" bold>
             20%
           </Text>
-          <AllocationMatch color="#D750B2" text={t('Matches all 6')} />
+          <AllocationMatch color="#6fd99e" text={t('Matches all 6')} />
           <Text textAlign="right" bold>
             40%
           </Text>
-          <AllocationMatch color="#d13f0f" text={t('Donation')} />
+          <AllocationMatch color="#77C159" text={t('Donation')} />
           <Text textAlign="right" bold>
             1%
           </Text>

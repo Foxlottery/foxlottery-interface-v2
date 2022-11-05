@@ -24,7 +24,7 @@ const BigCurve = styled(Box)<{ $status: PublicIfoData['status'] }>`
         `
       case 'live':
         return `
-          background: linear-gradient(#8051D6 100%, #492286 100%);
+          background: linear-gradient(#8051D6 100%, #278622 100%);
         `
       case 'finished':
         return `
