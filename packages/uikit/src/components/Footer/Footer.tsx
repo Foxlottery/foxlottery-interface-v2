@@ -43,7 +43,7 @@ const MenuItem: React.FC<FooterProps> = ({
           alignItems="flex-start"
           mb={["42px", null, "36px"]}
         >
-          {items?.map((item) => (
+          {/* {items?.map((item) => (
             <StyledList key={item.label}>
               <StyledListItem>{item.label}</StyledListItem>
               {item.items?.map(({ label, href, isHighlighted = false }) => (
@@ -64,19 +64,22 @@ const MenuItem: React.FC<FooterProps> = ({
                 </StyledListItem>
               ))}
             </StyledList>
-          ))}
-          <Box display={["none", null, "block"]}>
+          ))} */}
+          {/* <Box display={["none", null, "block"]}>
             <LogoWithTextIcon isDark isSmall />
-          </Box>
+          </Box> */}
         </Flex>
-        <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} />
+        {/* <StyledSocialLinks order={[2]} pb={["42px", null, "32px"]} mb={["0", null, "32px"]} /> */}
         <StyledToolsContainer
           order={[1, null, 3]}
           flexDirection={["column", null, "row"]}
           justifyContent="space-between"
         >
-          <Flex order={[2, null, 1]} alignItems="center">
+          <Flex order={[2, null, 1]} alignItems="center" justifyContent="space-between">
             <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
+            <Box display={["none", null, "block"]}>
+              <LogoWithTextIcon isDark isSmall />
+            </Box>
             {/* <LangSelector
               currentLang={currentLang}
               langs={langs}
