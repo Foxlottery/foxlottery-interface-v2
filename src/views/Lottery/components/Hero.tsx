@@ -221,7 +221,7 @@ const Hero = () => {
   const cakePriceBusd = usePriceCakeBusd()
   const prizeInBusd = amountCollectedInCake.times(cakePriceBusd)
   const prizeTotal = getBalanceNumber(prizeInBusd)
-  const ticketBuyIsDisabled = false;
+  const ticketBuyIsDisabled = false
 
   const getHeroHeading = () => {
     if (status === LotteryStatus.OPEN) {
