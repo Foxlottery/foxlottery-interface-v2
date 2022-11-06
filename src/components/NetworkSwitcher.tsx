@@ -55,7 +55,7 @@ export const NetworkSwitcher = () => {
     <UserMenu
       mr="8px"
       avatarSrc={`https://cdn.pancakeswap.com/chains/${chainId}.png`}
-      account={bscTest.name}
+      account={bsc.name}
       ellipsis={false}
     >
       {() => <NetworkSelect />}
