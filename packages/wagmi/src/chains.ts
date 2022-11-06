@@ -147,6 +147,29 @@ export const findora: Chain = {
   },
 }
 
+export const gnosis: Chain = {
+  id: 100,
+  name: 'Gnosis',
+  network: 'Gnosis',
+  rpcUrls: {
+    default: 'https://rpc.ankr.com/gnosis',
+    public: 'https://rpc.ankr.com/gnosis',
+  },
+  blockExplorers: {
+    default: { name: 'Gnosis Chain Blockchain Explorer', url: 'https://gnosisscan.io/' },
+    etherscan: { name: 'Gnosis Chain Blockchain Explorer', url: 'https://gnosisscan.io/' },
+  },
+  multicall: {
+    address: '',
+    blockCreated: 0,
+  },
+  nativeCurrency: {
+    name: 'xDAI',
+    symbol: 'xDAI',
+    decimals: 18,
+  },
+}
+
 export const CHAINS_TESTNET = [
   bscTest,
   rinkeby,
@@ -166,4 +189,4 @@ export const CHAINS_STARGATE_TESTNET = [
   fantomTestnet,
 ]
 
-export const CHAINS = [bsc, mainnet, arbitrum, optimism, polygon, fantomOpera, avalandche, findora]
+export const CHAINS = [bsc, mainnet, arbitrum, optimism, polygon, fantomOpera, avalandche, findora, gnosis]

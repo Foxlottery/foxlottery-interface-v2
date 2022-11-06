@@ -1,7 +1,6 @@
 // Set of helper functions to facilitate wallet setup
 
 import { ExternalProvider } from '@ethersproject/providers'
-import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { ChainId } from '@pancakeswap/sdk'
 import { BAD_SRCS } from 'components/Logo/Logo'
 import { BASE_BSC_SCAN_URLS } from 'config'
@@ -13,7 +12,7 @@ import {
   optimismKovan,
   polygonMumbai,
 } from 'wagmi/chains'
-import { findora } from '@pancakeswap/wagmi'
+import { findora, gnosis } from '@pancakeswap/wagmi'
 
 const NETWORK_CONFIG = {
   [mainnet.id]: {
@@ -62,7 +61,13 @@ const NETWORK_CONFIG = {
     name: findora.name,
     scanURL: [findora.blockExplorers.default.url],
     rpcUrls: [findora.rpcUrls.default],
-    symbol: 'FRA',
+    symbol: findora.nativeCurrency.symbol,
+  },
+  [gnosis.id]: {
+    name: gnosis.name,
+    scanURL: [gnosis.blockExplorers.default.url],
+    rpcUrls: [gnosis.rpcUrls.default],
+    symbol: gnosis.nativeCurrency.symbol,
   },
 }
 
