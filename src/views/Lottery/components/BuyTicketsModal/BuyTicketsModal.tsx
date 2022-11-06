@@ -313,7 +313,6 @@ const BuyTicketsModal: React.FC<BuyTicketsModalProps> = ({ onDismiss }) => {
           <Text mr="4px" bold>
             {t('Tickets')}
           </Text>
-          <Ticket />
         </Flex>
       </Flex>
       <BalanceInput
@@ -449,12 +448,6 @@ const BuyTicketsModal: React.FC<BuyTicketsModalProps> = ({ onDismiss }) => {
         ) : (
           <ConnectWalletButton />
         )}
-
-        <Text mt="24px" fontSize="12px" color="textSubtle">
-          {t(
-            '"Buy Instantly" chooses random numbers, with no duplicates among your tickets. Prices are set before each round starts, equal to $5 at that time. Purchases are final.',
-          )}
-        </Text>
       </Flex>
     </StyledModal>
   )
