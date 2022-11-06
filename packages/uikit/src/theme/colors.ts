@@ -1,0 +1,81 @@
+import { Colors } from "./types";
+
+export const baseColors = {
+  failure: "#ed4b58",
+  primary: "#77C159",
+  primaryBright: "#9eeb7f",
+  primaryDark: "#2d9902",
+  secondary: "#77C159",
+  success: "#31D0AA",
+  warning: "#FFB237",
+};
+
+export const additionalColors = {
+  binance: "#F0B90B",
+  overlay: "#4d8f32",
+  gold: "#FFC700",
+  silver: "#B2B2B2",
+  bronze: "#E7974D",
+};
+
+export const lightColors: Colors = {
+  ...baseColors,
+  ...additionalColors,
+  background: "#f9faf9",
+  backgroundDisabled: "#eaebe9",
+  backgroundAlt: "#FFFFFF",
+  backgroundAlt2: "rgba(255, 255, 255, 0.7)",
+  cardBorder: "#e3ebe6",
+  contrast: "#191326",
+  dropdown: "#F6F6F6",
+  dropdownDeep: "#EEEEEE",
+  invertedContrast: "#FFFFFF",
+  input: "#eaf4ed",
+  inputSecondary: "#caecda",
+  tertiary: "#dbdbdb",
+  text: "#363636",
+  textDisabled: "#8f8f8f",
+  textSubtle: "#5b5c5b",
+  disabled: "#e9ebe9",
+  gradients: {
+    bubblegum: "linear-gradient(139.73deg, #e5ffec 0%, #efffef 100%)",
+    inverseBubblegum: "linear-gradient(139.73deg, #efffef 0%, #e5ffec 100%)",
+    cardHeader: "linear-gradient(111.68deg, #ecf2ee 0%, #e8f2f6 100%)",
+    blue: "linear-gradient(180deg, #A7E8F1 0%, #94E1F2 100%)",
+    violet: "linear-gradient(180deg, #e2c9fb 0%, #b8fac7 100%)",
+    violetAlt: "linear-gradient(180deg, #cbd7ef 0%, #9ad0b2 100%)",
+    gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
+  },
+};
+
+export const darkColors: Colors = {
+  ...baseColors,
+  ...additionalColors,
+  secondary: "#77C159",
+  background: "#121f14",
+  backgroundDisabled: "#262c26",
+  backgroundAlt: "#272c26",
+  backgroundAlt2: "rgba(39, 44, 38, 0.7)",
+  cardBorder: "#344132",
+  contrast: "#FFFFFF",
+  dropdown: "#1d201d",
+  dropdownDeep: "#0c180c",
+  invertedContrast: "#192613",
+  input: "#30472f",
+  inputSecondary: "#243021",
+  primaryDark: "#05a100",
+  tertiary: "#353547",
+  text: "#f0f5f0",
+  textDisabled: "#617162",
+  textSubtle: "#d1dbd0",
+  disabled: "#4b634f",
+  gradients: {
+    bubblegum: "linear-gradient(139.73deg, #3e553b 0%, #304539 100%)",
+    inverseBubblegum: "linear-gradient(139.73deg, #3D2A54 0%, #313D5C 100%)",
+    cardHeader: "linear-gradient(166.77deg, #3e553b 0%, #304539 100%)",
+    blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
+    violet: "linear-gradient(180deg, #6C4999 0%, #6D4DB2 100%)",
+    violetAlt: "linear-gradient(180deg, #434575 0%, #66578D 100%)",
+    gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
+  },
+};
