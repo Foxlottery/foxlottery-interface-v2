@@ -4,36 +4,20 @@ import { useTranslation } from 'contexts/Localization'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import Image from 'next/image'
 import { setupNetwork } from 'utils/wallet'
-import {
-  mainnet,
-  optimism,
-  polygon,
-  optimismKovan,
-  polygonMumbai,
-} from 'wagmi/chains'
+import { mainnet, optimism, polygon, optimismKovan, polygonMumbai } from 'wagmi/chains'
 
-const chains = [
-  mainnet,
-  bsc,
-  polygon,
-  optimism,
-  findora,
-  gnosis,
-  bscTest,
-  polygonMumbai,
-  optimismKovan
-]
+const chains = [mainnet, bsc, polygon, optimism, findora, gnosis, bscTest, polygonMumbai, optimismKovan]
 
 const imagePath = (chainId: number) => {
-  let path;
+  let path
   if (chainId === 2152) {
-    path = 'images/findora.png';
+    path = 'images/findora.png'
   } else if (chainId === 100) {
-    path = 'images/gnosis.png';
+    path = 'images/gnosis.png'
   } else {
     path = `https://cdn.pancakeswap.com/chains/${chainId}.png`
   }
-  return path;
+  return path
 }
 
 export const NetworkSelect = () => {
