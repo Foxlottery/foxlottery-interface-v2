@@ -91,7 +91,7 @@ const MenuItem: React.FC<FooterProps> = ({
             </Box>
             <Button
               as="a"
-              href="https://www.coinbase.com/en/price/dai"
+              href="https://app.uniswap.org/#/tokens/polygon/0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"
               target="_blank"
               scale="sm"
               endIcon={<ArrowForwardIcon color={lightColors.backgroundAlt} />}
