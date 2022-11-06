@@ -8,7 +8,6 @@ import { findora, gnosis } from '@pancakeswap/wagmi'
 import { mainnet, optimism, polygon, optimismKovan, polygonMumbai } from 'wagmi/chains'
 import { BSC_RPC_URLS, BSC_TESTNET_RPC_URLS } from '../config/constants/rpc'
 
-
 const NETWORK_CONFIG = {
   [mainnet.id]: {
     name: mainnet.name,
