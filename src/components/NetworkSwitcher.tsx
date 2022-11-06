@@ -25,12 +25,15 @@ const chains = [
 ]
 
 const imagePath = (chainId: number) => {
-  if (chainId == 2152) {
-    return 'images/findora.png';
-  } else if (chainId == 100) {
-    return 'images/gnosis.png';
+  let path;
+  if (chainId === 2152) {
+    path = 'images/findora.png';
+  } else if (chainId === 100) {
+    path = 'images/gnosis.png';
+  } else {
+    path = `https://cdn.pancakeswap.com/chains/${chainId}.png`
   }
-  return `https://cdn.pancakeswap.com/chains/${chainId}.png`
+  return path;
 }
 
 export const NetworkSelect = () => {
