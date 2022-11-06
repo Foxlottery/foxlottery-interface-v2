@@ -4,9 +4,10 @@ import { ExternalProvider } from '@ethersproject/providers'
 import { ChainId } from '@pancakeswap/sdk'
 import { BAD_SRCS } from 'components/Logo/Logo'
 import { BASE_BSC_SCAN_URLS } from 'config'
-import { BSC_RPC_URLS, BSC_TESTNET_RPC_URLS } from '../config/constants/rpc'
-import { mainnet, optimism, polygon, optimismKovan, polygonMumbai } from 'wagmi/chains'
 import { findora, gnosis } from '@pancakeswap/wagmi'
+import { mainnet, optimism, polygon, optimismKovan, polygonMumbai } from 'wagmi/chains'
+import { BSC_RPC_URLS, BSC_TESTNET_RPC_URLS } from '../config/constants/rpc'
+
 
 const NETWORK_CONFIG = {
   [mainnet.id]: {

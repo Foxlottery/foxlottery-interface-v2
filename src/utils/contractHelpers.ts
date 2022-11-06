@@ -133,7 +133,6 @@ import type {
   PredictionsV1,
 } from 'config/abi/types'
 import { ChainId } from '@pancakeswap/sdk'
-import { BSC_BLOCK_TIME } from 'config'
 
 export const getContract = (abi: any, address: string, signer?: Signer | Provider) => {
   const signerOrProvider = signer ?? bscRpcProvider
