@@ -124,6 +124,29 @@ export const bscTest: Chain = {
   testnet: true,
 }
 
+export const findora: Chain = {
+  id: 2152,
+  name: 'Findora',
+  network: 'findora',
+  rpcUrls: {
+    default: 'https://prod-mainnet.prod.findora.org:8545',
+    public: 'https://prod-mainnet.prod.findora.org:8545',
+  },
+  blockExplorers: {
+    default: { name: 'Findora Blockchain Explorer', url: 'https://findorascan.io/' },
+    etherscan: { name: 'Findora Blockchain Explorer', url: 'https://evm.findorascan.io/' },
+  },
+  multicall: {
+    address: '',
+    blockCreated: 0,
+  },
+  nativeCurrency: {
+    name: 'FRA',
+    symbol: 'FRA',
+    decimals: 18,
+  },
+}
+
 export const CHAINS_TESTNET = [
   bscTest,
   rinkeby,
@@ -143,4 +166,4 @@ export const CHAINS_STARGATE_TESTNET = [
   fantomTestnet,
 ]
 
-export const CHAINS = [bsc, mainnet, arbitrum, optimism, polygon, fantomOpera, avalandche]
+export const CHAINS = [bsc, mainnet, arbitrum, optimism, polygon, fantomOpera, avalandche, findora]
