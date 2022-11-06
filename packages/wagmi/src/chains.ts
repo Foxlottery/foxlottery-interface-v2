@@ -137,8 +137,8 @@ export const findora: Chain = {
     etherscan: { name: 'Findora Blockchain Explorer', url: 'https://evm.findorascan.io/' },
   },
   multicall: {
-    address: '',
-    blockCreated: 0,
+    address: '0x8F3273Fb89B075b1645095ABaC6ed17B2d4Bc576',
+    blockCreated: 9759845,
   },
   nativeCurrency: {
     name: 'FRA',
@@ -160,8 +160,8 @@ export const gnosis: Chain = {
     etherscan: { name: 'Gnosis Chain Blockchain Explorer', url: 'https://gnosisscan.io/' },
   },
   multicall: {
-    address: '',
-    blockCreated: 0,
+    address: '0x8F3273Fb89B075b1645095ABaC6ed17B2d4Bc576',
+    blockCreated: 9759845,
   },
   nativeCurrency: {
     name: 'xDAI',
