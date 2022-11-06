@@ -139,14 +139,14 @@ const Menu: React.FC<NavProps> = ({
                 <Box mr="12px">{/* <CakePrice showSkeleton={false} cakePriceUsd={cakePriceUsd} /> */}</Box>
               )}
               <Box mt="4px">
-                <LangSelector
+                {/* <LangSelector
                   currentLang={currentLang}
                   langs={langs}
                   setLang={setLang}
                   buttonScale="xs"
                   color="textSubtle"
                   hideLanguage
-                />
+                /> */}
               </Box>
               {rightSide}
             </Flex>

@@ -13,7 +13,7 @@ import {
 } from "./styles";
 import { FooterProps } from "./types";
 import { ThemeSwitcher } from "../ThemeSwitcher";
-import LangSelector from "../LangSelector/LangSelector";
+// import LangSelector from "../LangSelector/LangSelector";
 // import CakePrice from "../CakePrice/CakePrice";
 import { LogoWithTextIcon, ArrowForwardIcon } from "../Svg";
 import { Button } from "../Button";
@@ -23,9 +23,9 @@ const MenuItem: React.FC<FooterProps> = ({
   items,
   isDark,
   toggleTheme,
-  currentLang,
-  langs,
-  setLang,
+  // currentLang,
+  // langs,
+  // setLang,
   // cakePriceUsd,
   buyCakeLabel,
   ...props
@@ -77,13 +77,13 @@ const MenuItem: React.FC<FooterProps> = ({
         >
           <Flex order={[2, null, 1]} alignItems="center">
             <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
-            <LangSelector
+            {/* <LangSelector
               currentLang={currentLang}
               langs={langs}
               setLang={setLang}
               color={darkColors.textSubtle as keyof Colors}
               dropdownPosition="top-right"
-            />
+            /> */}
           </Flex>
           <Flex order={[1, null, 2]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">
             <Box mr="20px">
