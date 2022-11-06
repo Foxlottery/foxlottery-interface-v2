@@ -1,11 +1,24 @@
 import { Box, Text, UserMenu, UserMenuDivider, UserMenuItem } from '@pancakeswap/uikit'
-import { bsc, bscTest } from '@pancakeswap/wagmi'
+import { bsc, bscTest, findora, gnosis } from '@pancakeswap/wagmi'
 import { useTranslation } from 'contexts/Localization'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import Image from 'next/image'
 import { setupNetwork } from 'utils/wallet'
+import { mainnet, optimism, polygon, optimismKovan, polygonMumbai } from 'wagmi/chains'
 
-const chains = [bsc, bscTest]
+const chains = [mainnet, bsc, polygon, optimism, findora, gnosis, bscTest, polygonMumbai, optimismKovan]
+
+const imagePath = (chainId: number) => {
+  let path
+  if (chainId === 2152) {
+    path = 'images/findora.png'
+  } else if (chainId === 100) {
+    path = 'images/gnosis.png'
+  } else {
+    path = `https://cdn.pancakeswap.com/chains/${chainId}.png`
+  }
+  return path
+}
 
 export const NetworkSelect = () => {
   const { t } = useTranslation()
@@ -17,7 +30,7 @@ export const NetworkSelect = () => {
       <UserMenuDivider />
       {chains.map((chain) => (
         <UserMenuItem key={chain.id} style={{ justifyContent: 'flex-start' }} onClick={() => setupNetwork(chain.id)}>
-          <Image width={24} height={24} src={`https://cdn.pancakeswap.com/chains/${chain.id}.png`} unoptimized />
+          <Image width={24} height={24} src={imagePath(chain.id)} unoptimized />
           <Text pl="12px">{chain.name}</Text>
         </UserMenuItem>
       ))}
@@ -28,18 +41,14 @@ export const NetworkSelect = () => {
 export const NetworkSwitcher = () => {
   const { chainId } = useActiveWeb3React()
 
-  if (chainId === bscTest.id) {
-    return (
-      <UserMenu
-        mr="8px"
-        avatarSrc={`https://cdn.pancakeswap.com/chains/${chainId}.png`}
-        account={bscTest.name}
-        ellipsis={false}
-      >
-        {() => <NetworkSelect />}
-      </UserMenu>
-    )
-  }
-
-  return null
+  return (
+    <UserMenu
+      mr="8px"
+      avatarSrc={`https://cdn.pancakeswap.com/chains/${chainId}.png`}
+      account={bsc.name}
+      ellipsis={false}
+    >
+      {() => <NetworkSelect />}
+    </UserMenu>
+  )
 }

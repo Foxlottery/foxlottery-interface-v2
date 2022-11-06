@@ -124,6 +124,52 @@ export const bscTest: Chain = {
   testnet: true,
 }
 
+export const findora: Chain = {
+  id: 2152,
+  name: 'Findora',
+  network: 'findora',
+  rpcUrls: {
+    default: 'https://prod-mainnet.prod.findora.org:8545',
+    public: 'https://prod-mainnet.prod.findora.org:8545',
+  },
+  blockExplorers: {
+    default: { name: 'Findora Blockchain Explorer', url: 'https://findorascan.io/' },
+    etherscan: { name: 'Findora Blockchain Explorer', url: 'https://evm.findorascan.io/' },
+  },
+  multicall: {
+    address: '0x8F3273Fb89B075b1645095ABaC6ed17B2d4Bc576',
+    blockCreated: 9759845,
+  },
+  nativeCurrency: {
+    name: 'FRA',
+    symbol: 'FRA',
+    decimals: 18,
+  },
+}
+
+export const gnosis: Chain = {
+  id: 100,
+  name: 'Gnosis',
+  network: 'Gnosis',
+  rpcUrls: {
+    default: 'https://rpc.ankr.com/gnosis',
+    public: 'https://rpc.ankr.com/gnosis',
+  },
+  blockExplorers: {
+    default: { name: 'Gnosis Chain Blockchain Explorer', url: 'https://gnosisscan.io/' },
+    etherscan: { name: 'Gnosis Chain Blockchain Explorer', url: 'https://gnosisscan.io/' },
+  },
+  multicall: {
+    address: '0x8F3273Fb89B075b1645095ABaC6ed17B2d4Bc576',
+    blockCreated: 9759845,
+  },
+  nativeCurrency: {
+    name: 'xDAI',
+    symbol: 'xDAI',
+    decimals: 18,
+  },
+}
+
 export const CHAINS_TESTNET = [
   bscTest,
   rinkeby,
@@ -143,4 +189,4 @@ export const CHAINS_STARGATE_TESTNET = [
   fantomTestnet,
 ]
 
-export const CHAINS = [bsc, mainnet, arbitrum, optimism, polygon, fantomOpera, avalandche]
+export const CHAINS = [bsc, mainnet, arbitrum, optimism, polygon, fantomOpera, avalandche, findora, gnosis]
