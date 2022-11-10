@@ -22,6 +22,7 @@ import HistoryTabMenu from './components/HistoryTabMenu'
 import YourHistoryCard from './components/YourHistoryCard'
 import AllHistoryCard from './components/AllHistoryCard'
 import CheckPrizesSection from './components/CheckPrizesSection'
+import HowToPlay from './components/HowToPlay'
 import useShowMoreUserHistory from './hooks/useShowMoreUserRounds'
 import { PageMeta } from '../../components/Layout/Page'
 
@@ -105,6 +106,14 @@ const Lottery = () => {
               />
             )}
           </Flex>
+        </PageSection>
+        <PageSection
+          dividerPosition="top"
+          dividerFill={{ light: theme.colors.background }}
+          clipFill={{ light: '#59c19b', dark: '#578d78' }}
+          index={2}
+        >
+          <HowToPlay />
         </PageSection>
       </LotteryPage>
     </>
